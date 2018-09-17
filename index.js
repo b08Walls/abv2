@@ -12,7 +12,7 @@ app.use(express.urlencoded())
 
 app.get('/',function(req,res)
 {
-	res.send('<h1>Here lays ANDON-BOT, that his spirit answear all the shutdowns 4E&E</h1>');
+	res.send('<h1>Here lays ANDON-BOT, we hope his spirit answer for all the shutdowns 4E&E</h1>');
 });
 
 //Declaracion de carpeta publica

@@ -40,5 +40,5 @@ bot.onText(/\/echo (.+)/, (msg,match)=> {
 bot.on('message',(msg) => {
     const chatId = msg.chat.id;
     console.log("[on] msg",msg);
-    bot.sendMessage(chatId, 'Recieved your message');
+    bot.sendMessage(chatId, 'Ya me llego el mensaje !!');
 })
